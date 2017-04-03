@@ -1,0 +1,27 @@
+# set vxe extention for VxWorks executables
+ac_cv_exeext=.vxe
+
+# Use cached config values for test that autoconf cannot figure out
+ac_cv_file__dev_zero=no
+ac_cv_func_setpgrp=no
+ac_cv_func_setpgrp_void=no
+
+# ac_cv_func_getifaddrs=no
+
+ac_cv_sizeof_struct_iovec="8"
+
+ac_cv_header_sys_times_h=no
+
+ac_cv_struct_rlimit=yes
+
+ac_cv_func_getpwnam=yes
+ac_cv_func_getgrnam=yes
+
+# disable PIC for static build (Cilk)
+
+lt_cv_prog_compiler_pic_works_CXX=no
+	
+# PY_FORMAT_LONG_LONG (Python)
+
+ac_cv_have_long_long_format=ll
+
