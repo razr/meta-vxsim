@@ -2,7 +2,6 @@
 def get_kernelversion_headers(p):
     return "7.0.0.0"
 
-
 def get_kernelversion_file(p):
     fn = p + '/version.h'
 
@@ -11,9 +10,6 @@ def get_kernelversion_file(p):
             return f.readlines()[0].strip()
     except IOError:
         return None
-
-def vxworks_module_packages(s, d):
-	return " "
 
 # that's all
 

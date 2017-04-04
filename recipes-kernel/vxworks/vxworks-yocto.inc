@@ -34,7 +34,7 @@ KMETA_AUDIT ?= "yes"
 VXWORKS_VERSION_EXTENSION ?= "-yocto-${VXWORKS_KERNEL_TYPE}"
 
 # Pick up shared functions
-inherit kernel
+inherit vxworks
 inherit kernel-yocto
 require linux-dtb.inc
 
